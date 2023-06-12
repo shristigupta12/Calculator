@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.display{
+  background-color: rgb(221, 212, 212);
+  width: 50vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid grey;
+}
+.Keyboard{
+  border: 5px solid grey;
+  background-color: rgb(245, 245, 201);
+  height: 300px;
+  width: 50vw;
+}
+.numsWrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
